@@ -1,0 +1,20 @@
+prefix: "&7[&cJobs&7] &r"
+mysql:
+  host: "localhost"
+  database: "database"
+  user: "root"
+  password: ''
+  port: 3306
+jobs:
+  CowHunter:
+    requiredNumberForTheReward: 5
+    name: "Kuhjäger"
+    description: "Jage 5 Kühe um 1x Diamant freizuschalten."
+    reward_material: DIAMOND
+    icon: COW_SPAWN_EGG
+  StoneCollector:
+    requiredNumberForTheReward: 5
+    name: "Steine Sammler"
+    description: "Sammel mind. 5 Steine um 1x Emerald freizuschalten."
+    reward_material: EMERALD
+    icon: COBBLESTONE

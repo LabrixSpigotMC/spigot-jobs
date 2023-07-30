@@ -1,0 +1,8 @@
+name: Jobs
+version: '1.0'
+main: net.nothing.jobs.JobsBootstrap
+api-version: 1.19
+author: Labrix / Nothing
+commands:
+  jobs:
+    description: Default jobs command
